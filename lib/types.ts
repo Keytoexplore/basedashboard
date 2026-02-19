@@ -1,4 +1,12 @@
-export type Grade = 'PSA6' | 'PSA7' | 'PSA8' | 'PSA9';
+export type Grade =
+  | 'PSA6'
+  | 'PSA7'
+  | 'PSA8'
+  | 'PSA9'
+  | 'CGC6'
+  | 'CGC7'
+  | 'CGC8'
+  | 'CGC9';
 
 export type GradeStats = {
   count: number;

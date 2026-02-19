@@ -1,13 +1,17 @@
 {
   "meta": {
-    "builtAt": "2026-02-19T18:35:08.917Z",
+    "builtAt": "2026-02-19T19:09:22.344Z",
     "setName": "Base Set",
     "setId": 604,
     "grades": [
       "PSA6",
       "PSA7",
       "PSA8",
-      "PSA9"
+      "PSA9",
+      "CGC6",
+      "CGC7",
+      "CGC8",
+      "CGC9"
     ]
   },
   "cards": [
@@ -70,6 +74,26 @@
               "daysUsed": 7
             }
           },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC6": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC7": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC8": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC9": {
+          "stats": null,
           "lastSale": null,
           "priceHistoryDays": 0
         }
@@ -185,6 +209,82 @@
           },
           "lastSale": null,
           "priceHistoryDays": 0
+        },
+        "CGC6": {
+          "stats": {
+            "count": 4,
+            "averagePrice": 89.75,
+            "medianPrice": 94.5,
+            "minPrice": 70,
+            "maxPrice": 100,
+            "marketPrice7Day": null,
+            "marketPriceMedian7Day": null,
+            "dailyVolume7Day": null,
+            "marketTrend": "up",
+            "lastMarketUpdate": "2026-02-18T21:31:16.892Z",
+            "smartMarketPrice": {
+              "price": 92,
+              "confidence": "medium",
+              "method": "90day_filtered_weighted",
+              "daysUsed": 90
+            }
+          },
+          "lastSale": {
+            "date": "2026-02-07",
+            "average": 99,
+            "count": 1,
+            "totalValue": 99
+          },
+          "priceHistoryDays": 1
+        },
+        "CGC7": {
+          "stats": {
+            "count": 1,
+            "averagePrice": 49,
+            "medianPrice": 49,
+            "minPrice": 49,
+            "maxPrice": 49,
+            "marketPrice7Day": null,
+            "marketPriceMedian7Day": null,
+            "dailyVolume7Day": null,
+            "marketTrend": null,
+            "lastMarketUpdate": "2026-02-18T21:31:16.892Z",
+            "smartMarketPrice": {
+              "price": 49,
+              "confidence": "low",
+              "method": "all_filtered_weighted",
+              "daysUsed": 38
+            }
+          },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC8": {
+          "stats": {
+            "count": 1,
+            "averagePrice": 199.99,
+            "medianPrice": 199.99,
+            "minPrice": 199.99,
+            "maxPrice": 199.99,
+            "marketPrice7Day": null,
+            "marketPriceMedian7Day": null,
+            "dailyVolume7Day": null,
+            "marketTrend": null,
+            "lastMarketUpdate": "2026-02-18T21:31:16.893Z",
+            "smartMarketPrice": {
+              "price": 169.99,
+              "confidence": "low",
+              "method": "all_filtered_weighted",
+              "daysUsed": 68
+            }
+          },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC9": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
         }
       }
     },
@@ -247,6 +347,26 @@
               "daysUsed": 67
             }
           },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC6": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC7": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC8": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC9": {
+          "stats": null,
           "lastSale": null,
           "priceHistoryDays": 0
         }
@@ -367,6 +487,48 @@
             "totalValue": 2899.99
           },
           "priceHistoryDays": 2
+        },
+        "CGC6": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC7": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC8": {
+          "stats": {
+            "count": 3,
+            "averagePrice": 678.6666666666666,
+            "medianPrice": 680,
+            "minPrice": 631,
+            "maxPrice": 725,
+            "marketPrice7Day": null,
+            "marketPriceMedian7Day": null,
+            "dailyVolume7Day": null,
+            "marketTrend": "up",
+            "lastMarketUpdate": "2026-02-18T21:16:17.028Z",
+            "smartMarketPrice": {
+              "price": 702.5,
+              "confidence": "low",
+              "method": "30day_filtered_weighted",
+              "daysUsed": 30
+            }
+          },
+          "lastSale": {
+            "date": "2026-02-06",
+            "average": 725,
+            "count": 1,
+            "totalValue": 725
+          },
+          "priceHistoryDays": 2
+        },
+        "CGC9": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
         }
       }
     },
@@ -429,6 +591,26 @@
               "daysUsed": 3
             }
           },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC6": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC7": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC8": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC9": {
+          "stats": null,
           "lastSale": null,
           "priceHistoryDays": 0
         }
@@ -495,6 +677,26 @@
           },
           "lastSale": null,
           "priceHistoryDays": 0
+        },
+        "CGC6": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC7": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC8": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC9": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
         }
       }
     },
@@ -557,6 +759,26 @@
               "daysUsed": 91
             }
           },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC6": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC7": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC8": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC9": {
+          "stats": null,
           "lastSale": null,
           "priceHistoryDays": 0
         }
@@ -623,6 +845,26 @@
           },
           "lastSale": null,
           "priceHistoryDays": 0
+        },
+        "CGC6": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC7": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC8": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC9": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
         }
       }
     },
@@ -685,6 +927,26 @@
               "daysUsed": 161
             }
           },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC6": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC7": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC8": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC9": {
+          "stats": null,
           "lastSale": null,
           "priceHistoryDays": 0
         }
@@ -751,6 +1013,26 @@
           },
           "lastSale": null,
           "priceHistoryDays": 0
+        },
+        "CGC6": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC7": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC8": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC9": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
         }
       }
     },
@@ -813,6 +1095,26 @@
               "daysUsed": 7
             }
           },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC6": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC7": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC8": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC9": {
+          "stats": null,
           "lastSale": null,
           "priceHistoryDays": 0
         }
@@ -879,6 +1181,26 @@
           },
           "lastSale": null,
           "priceHistoryDays": 0
+        },
+        "CGC6": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC7": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC8": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC9": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
         }
       }
     },
@@ -941,6 +1263,26 @@
               "daysUsed": 7
             }
           },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC6": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC7": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC8": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC9": {
+          "stats": null,
           "lastSale": null,
           "priceHistoryDays": 0
         }
@@ -1061,6 +1403,65 @@
             "totalValue": 445
           },
           "priceHistoryDays": 2
+        },
+        "CGC6": {
+          "stats": {
+            "count": 1,
+            "averagePrice": 67.85,
+            "medianPrice": 67.85,
+            "minPrice": 67.85,
+            "maxPrice": 67.85,
+            "marketPrice7Day": null,
+            "marketPriceMedian7Day": null,
+            "dailyVolume7Day": null,
+            "marketTrend": null,
+            "lastMarketUpdate": "2026-02-18T21:36:48.777Z",
+            "smartMarketPrice": {
+              "price": 67.85,
+              "confidence": "low",
+              "method": "all_filtered_weighted",
+              "daysUsed": 24
+            }
+          },
+          "lastSale": {
+            "date": "2026-01-25",
+            "average": 67.85,
+            "count": 1,
+            "totalValue": 67.85
+          },
+          "priceHistoryDays": 1
+        },
+        "CGC7": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC8": {
+          "stats": {
+            "count": 4,
+            "averagePrice": 270.9875,
+            "medianPrice": 179.975,
+            "minPrice": 149,
+            "maxPrice": 575,
+            "marketPrice7Day": null,
+            "marketPriceMedian7Day": null,
+            "dailyVolume7Day": null,
+            "marketTrend": "down",
+            "lastMarketUpdate": "2026-02-18T21:36:48.776Z",
+            "smartMarketPrice": {
+              "price": 154.47,
+              "confidence": "medium",
+              "method": "90day_filtered_weighted",
+              "daysUsed": 90
+            }
+          },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC9": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
         }
       }
     },
@@ -1123,6 +1524,26 @@
               "daysUsed": 7
             }
           },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC6": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC7": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC8": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "CGC9": {
+          "stats": null,
           "lastSale": null,
           "priceHistoryDays": 0
         }

@@ -28,7 +28,7 @@ const SET_ID = 604; // Base Set tcgPlayerNumericId
 const SET_NAME = 'Base Set';
 const LANGUAGE = 'english';
 
-const GRADES = ['PSA6', 'PSA7', 'PSA8', 'PSA9'];
+const GRADES = ['PSA6', 'PSA7', 'PSA8', 'PSA9', 'CGC6', 'CGC7', 'CGC8', 'CGC9'];
 
 const argv = process.argv.slice(2);
 const FORCE = argv.includes('--force');

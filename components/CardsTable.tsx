@@ -1,9 +1,10 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import type { CardRow, Grade } from '@/lib/types';
 
-const GRADES: Grade[] = ['PSA6', 'PSA7', 'PSA8', 'PSA9'];
+const GRADES_PSA: Grade[] = ['PSA6', 'PSA7', 'PSA8', 'PSA9'];
+const GRADES_CGC: Grade[] = ['CGC6', 'CGC7', 'CGC8', 'CGC9'];
 
 function money(n: number | null | undefined): string {
   if (n == null || Number.isNaN(n)) return '-';
@@ -15,9 +16,12 @@ function dateOrDash(d: string | null | undefined): string {
 }
 
 export function CardsTable({ cards }: { cards: CardRow[] }) {
+  const [grader, setGrader] = useState<'PSA' | 'CGC'>('PSA');
   const [grade, setGrade] = useState<Grade>('PSA9');
   const [search, setSearch] = useState('');
   const [sortBy, setSortBy] = useState<'lastSaleDate' | 'lastSaleAvg' | 'smart30d' | 'count'>('lastSaleDate');
+
+  const availableGrades = grader === 'PSA' ? GRADES_PSA : GRADES_CGC;
 
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase();
@@ -49,9 +53,17 @@ export function CardsTable({ cards }: { cards: CardRow[] }) {
     return out;
   }, [cards, grade, search, sortBy]);
 
+  // Keep grade valid when switching grader
+  useEffect(() => {
+    if (!availableGrades.includes(grade)) {
+      const next = availableGrades[availableGrades.length - 1];
+      if (next) setGrade(next);
+    }
+  }, [availableGrades, grade]);
+
   return (
     <div style={{ background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.15)', borderRadius: 12, padding: 16 }}>
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 180px 180px', gap: 12, marginBottom: 12 }}>
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr 140px 140px 180px', gap: 12, marginBottom: 12 }}>
         <input
           value={search}
           onChange={(e) => setSearch(e.target.value)}
@@ -59,11 +71,19 @@ export function CardsTable({ cards }: { cards: CardRow[] }) {
           style={{ padding: '10px 12px', borderRadius: 10, border: '1px solid rgba(255,255,255,0.2)', background: 'rgba(0,0,0,0.2)', color: 'white' }}
         />
         <select
+          value={grader}
+          onChange={(e) => setGrader(e.target.value as any)}
+          style={{ padding: '10px 12px', borderRadius: 10, border: '1px solid rgba(255,255,255,0.2)', background: 'rgba(0,0,0,0.2)', color: 'white' }}
+        >
+          <option value="PSA">PSA</option>
+          <option value="CGC">CGC</option>
+        </select>
+        <select
           value={grade}
           onChange={(e) => setGrade(e.target.value as Grade)}
           style={{ padding: '10px 12px', borderRadius: 10, border: '1px solid rgba(255,255,255,0.2)', background: 'rgba(0,0,0,0.2)', color: 'white' }}
         >
-          {GRADES.map((g) => (
+          {availableGrades.map((g) => (
             <option key={g} value={g}>
               {g}
             </option>
