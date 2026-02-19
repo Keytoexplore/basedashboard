@@ -15,6 +15,28 @@ function dateOrDash(d: string | null | undefined): string {
   return d || '-';
 }
 
+function toDay(iso: string | null | undefined): string | null {
+  if (!iso) return null;
+  // "2026-02-18T21:16:17.028Z" -> "2026-02-18"
+  return iso.slice(0, 10);
+}
+
+function effectiveRecencyDate(g: any): string {
+  return dateOrDash(g.lastSale?.date || toDay(g.stats?.lastMarketUpdate));
+}
+
+function effectiveRecentAvg(g: any): number | null {
+  // Prefer actual last-sale average (if present), else smartMarketPrice, else 7d market.
+  return g.lastSale?.average ?? g.stats?.smartMarketPrice?.price ?? g.stats?.marketPrice7Day ?? null;
+}
+
+function recentAvgSource(g: any): string {
+  if (g.lastSale?.average != null) return 'last sale';
+  if (g.stats?.smartMarketPrice?.price != null) return `smart (${g.stats?.smartMarketPrice?.method || 'n/a'})`;
+  if (g.stats?.marketPrice7Day != null) return '7d market';
+  return 'n/a';
+}
+
 export function CardsTable({ cards }: { cards: CardRow[] }) {
   const [grader, setGrader] = useState<'PSA' | 'CGC'>('PSA');
   const [grade, setGrade] = useState<Grade>('PSA9');
@@ -106,10 +128,10 @@ export function CardsTable({ cards }: { cards: CardRow[] }) {
           <thead>
             <tr style={{ textAlign: 'left', borderBottom: '1px solid rgba(255,255,255,0.15)' }}>
               <th style={{ padding: 10 }}>Card</th>
-              <th style={{ padding: 10 }}>Last sale date</th>
-              <th style={{ padding: 10 }}>Last sale avg</th>
-              <th style={{ padding: 10 }}>Last sale count</th>
-              <th style={{ padding: 10 }}>Smart price (30d)</th>
+              <th style={{ padding: 10 }}>Latest datapoint</th>
+              <th style={{ padding: 10 }}>Recent avg</th>
+              <th style={{ padding: 10 }}>Avg source</th>
+              <th style={{ padding: 10 }}>Smart price</th>
               <th style={{ padding: 10 }}>7d market</th>
               <th style={{ padding: 10 }}>All-time sales</th>
             </tr>
@@ -129,9 +151,9 @@ export function CardsTable({ cards }: { cards: CardRow[] }) {
                       TCGPlayer →
                     </a>
                   </td>
-                  <td style={{ padding: 10, fontFamily: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas' }}>{dateOrDash(g.lastSale?.date)}</td>
-                  <td style={{ padding: 10 }}>{money(g.lastSale?.average)}</td>
-                  <td style={{ padding: 10 }}>{g.lastSale?.count ?? '-'}</td>
+                  <td style={{ padding: 10, fontFamily: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas' }}>{effectiveRecencyDate(g)}</td>
+                  <td style={{ padding: 10 }}>{money(effectiveRecentAvg(g))}</td>
+                  <td style={{ padding: 10, fontSize: 12, color: 'rgba(255,255,255,0.75)' }}>{recentAvgSource(g)}</td>
                   <td style={{ padding: 10 }}>{money(g.stats?.smartMarketPrice?.price ?? null)}</td>
                   <td style={{ padding: 10 }}>{money(g.stats?.marketPrice7Day ?? null)}</td>
                   <td style={{ padding: 10 }}>{g.stats?.count ?? '-'}</td>
