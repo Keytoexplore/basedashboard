@@ -1,0 +1,1132 @@
+{
+  "meta": {
+    "builtAt": "2026-02-19T18:35:08.917Z",
+    "setName": "Base Set",
+    "setId": 604,
+    "grades": [
+      "PSA6",
+      "PSA7",
+      "PSA8",
+      "PSA9"
+    ]
+  },
+  "cards": [
+    {
+      "tcgPlayerId": "42346",
+      "name": "Alakazam",
+      "cardNumber": "001/102",
+      "setName": "Base Set",
+      "rarity": "Holo Rare",
+      "tcgPlayerUrl": "https://www.tcgplayer.com/product/42346",
+      "grades": {
+        "PSA6": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA7": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA8": {
+          "stats": {
+            "count": 7,
+            "averagePrice": 84.5,
+            "medianPrice": 84,
+            "minPrice": 76,
+            "maxPrice": 100,
+            "marketPrice7Day": 154.35,
+            "marketPriceMedian7Day": 168.2315384615385,
+            "dailyVolume7Day": 4.57,
+            "marketTrend": "rising",
+            "lastMarketUpdate": "2026-01-07T00:00:00.000Z",
+            "smartMarketPrice": {
+              "price": 154.35,
+              "confidence": "high",
+              "method": "7_day_rolling_average",
+              "daysUsed": 7
+            }
+          },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA9": {
+          "stats": {
+            "count": 1,
+            "averagePrice": 205,
+            "medianPrice": 205,
+            "minPrice": 205,
+            "maxPrice": 205,
+            "marketPrice7Day": 214.94,
+            "marketPriceMedian7Day": 166.76,
+            "dailyVolume7Day": 1,
+            "marketTrend": "rising",
+            "lastMarketUpdate": "2025-12-25T00:00:00.000Z",
+            "smartMarketPrice": {
+              "price": 214.94,
+              "confidence": "high",
+              "method": "7_day_rolling_average",
+              "daysUsed": 7
+            }
+          },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        }
+      }
+    },
+    {
+      "tcgPlayerId": "42360",
+      "name": "Blastoise",
+      "cardNumber": "002/102",
+      "setName": "Base Set",
+      "rarity": "Holo Rare",
+      "tcgPlayerUrl": "https://www.tcgplayer.com/product/42360",
+      "grades": {
+        "PSA6": {
+          "stats": {
+            "count": 11,
+            "averagePrice": 141.95000000000002,
+            "medianPrice": 120,
+            "minPrice": 92,
+            "maxPrice": 350,
+            "marketPrice7Day": null,
+            "marketPriceMedian7Day": null,
+            "dailyVolume7Day": null,
+            "marketTrend": "down",
+            "lastMarketUpdate": "2026-02-18T21:31:16.892Z",
+            "smartMarketPrice": {
+              "price": 123.75,
+              "confidence": "medium",
+              "method": "30day_filtered_weighted",
+              "daysUsed": 30
+            }
+          },
+          "lastSale": {
+            "date": "2026-02-04",
+            "average": 150,
+            "count": 1,
+            "totalValue": 150
+          },
+          "priceHistoryDays": 3
+        },
+        "PSA7": {
+          "stats": {
+            "count": 12,
+            "averagePrice": 176.42666666666665,
+            "medianPrice": 174.5,
+            "minPrice": 143.13,
+            "maxPrice": 209.99,
+            "marketPrice7Day": null,
+            "marketPriceMedian7Day": null,
+            "dailyVolume7Day": null,
+            "marketTrend": "up",
+            "lastMarketUpdate": "2026-02-18T21:31:16.892Z",
+            "smartMarketPrice": {
+              "price": 187,
+              "confidence": "high",
+              "method": "30day_filtered_weighted",
+              "daysUsed": 30
+            }
+          },
+          "lastSale": {
+            "date": "2026-02-04",
+            "average": 200,
+            "count": 1,
+            "totalValue": 200
+          },
+          "priceHistoryDays": 6
+        },
+        "PSA8": {
+          "stats": {
+            "count": 23,
+            "averagePrice": 317.02521739130435,
+            "medianPrice": 299.99,
+            "minPrice": 112.5,
+            "maxPrice": 960,
+            "marketPrice7Day": 330,
+            "marketPriceMedian7Day": 330,
+            "dailyVolume7Day": 0.14285714285714285,
+            "marketTrend": "up",
+            "lastMarketUpdate": "2026-02-18T21:31:16.892Z",
+            "smartMarketPrice": {
+              "price": 315,
+              "confidence": "medium",
+              "method": "30day_filtered_weighted",
+              "daysUsed": 30
+            }
+          },
+          "lastSale": {
+            "date": "2026-02-13",
+            "average": 330,
+            "count": 1,
+            "totalValue": 330
+          },
+          "priceHistoryDays": 3
+        },
+        "PSA9": {
+          "stats": {
+            "count": 5,
+            "averagePrice": 537.772,
+            "medianPrice": 500,
+            "minPrice": 208.88,
+            "maxPrice": 829.98,
+            "marketPrice7Day": null,
+            "marketPriceMedian7Day": null,
+            "dailyVolume7Day": null,
+            "marketTrend": "up",
+            "lastMarketUpdate": "2026-02-18T21:31:16.892Z",
+            "smartMarketPrice": {
+              "price": 208.88,
+              "confidence": "low",
+              "method": "all_filtered_weighted",
+              "daysUsed": 190
+            }
+          },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        }
+      }
+    },
+    {
+      "tcgPlayerId": "42371",
+      "name": "Chansey",
+      "cardNumber": "003/102",
+      "setName": "Base Set",
+      "rarity": "Holo Rare",
+      "tcgPlayerUrl": "https://www.tcgplayer.com/product/42371",
+      "grades": {
+        "PSA6": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA7": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA8": {
+          "stats": {
+            "count": 16,
+            "averagePrice": 54.9525,
+            "medianPrice": 53,
+            "minPrice": 22,
+            "maxPrice": 75,
+            "marketPrice7Day": null,
+            "marketPriceMedian7Day": null,
+            "dailyVolume7Day": null,
+            "marketTrend": "stable",
+            "lastMarketUpdate": "2026-01-21T15:02:54.098Z",
+            "smartMarketPrice": {
+              "price": 50,
+              "confidence": "medium",
+              "method": "30day_median",
+              "daysUsed": 30
+            }
+          },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA9": {
+          "stats": {
+            "count": 1,
+            "averagePrice": 175,
+            "medianPrice": 175,
+            "minPrice": 175,
+            "maxPrice": 175,
+            "marketPrice7Day": null,
+            "marketPriceMedian7Day": null,
+            "dailyVolume7Day": null,
+            "marketTrend": null,
+            "lastMarketUpdate": "2026-01-21T15:02:54.099Z",
+            "smartMarketPrice": {
+              "price": 175,
+              "confidence": "low",
+              "method": "all_available",
+              "daysUsed": 67
+            }
+          },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        }
+      }
+    },
+    {
+      "tcgPlayerId": "42382",
+      "name": "Charizard",
+      "cardNumber": "004/102",
+      "setName": "Base Set",
+      "rarity": "Holo Rare",
+      "tcgPlayerUrl": "https://www.tcgplayer.com/product/42382",
+      "grades": {
+        "PSA6": {
+          "stats": {
+            "count": 11,
+            "averagePrice": 560.4072727272727,
+            "medianPrice": 400,
+            "minPrice": 325,
+            "maxPrice": 1400,
+            "marketPrice7Day": null,
+            "marketPriceMedian7Day": null,
+            "dailyVolume7Day": null,
+            "marketTrend": "down",
+            "lastMarketUpdate": "2026-02-18T21:16:17.028Z",
+            "smartMarketPrice": {
+              "price": 378.12,
+              "confidence": "low",
+              "method": "30day_filtered_weighted",
+              "daysUsed": 30
+            }
+          },
+          "lastSale": {
+            "date": "2026-01-31",
+            "average": 480,
+            "count": 1,
+            "totalValue": 480
+          },
+          "priceHistoryDays": 2
+        },
+        "PSA7": {
+          "stats": {
+            "count": 12,
+            "averagePrice": 607.7425,
+            "medianPrice": 600,
+            "minPrice": 560,
+            "maxPrice": 649.99,
+            "marketPrice7Day": 623.995,
+            "marketPriceMedian7Day": 623.995,
+            "dailyVolume7Day": 0.2857142857142857,
+            "marketTrend": "stable",
+            "lastMarketUpdate": "2026-02-18T21:16:17.028Z",
+            "smartMarketPrice": {
+              "price": 510,
+              "confidence": "medium",
+              "method": "14day_filtered_weighted",
+              "daysUsed": 14
+            }
+          },
+          "lastSale": {
+            "date": "2026-02-15",
+            "average": 623.995,
+            "count": 2,
+            "totalValue": 1247.99
+          },
+          "priceHistoryDays": 6
+        },
+        "PSA8": {
+          "stats": {
+            "count": 22,
+            "averagePrice": 1074.9172727272728,
+            "medianPrice": 882.5,
+            "minPrice": 650,
+            "maxPrice": 2900,
+            "marketPrice7Day": 1215.25,
+            "marketPriceMedian7Day": 1100,
+            "dailyVolume7Day": 0.42857142857142855,
+            "marketTrend": "up",
+            "lastMarketUpdate": "2026-02-18T21:16:17.028Z",
+            "smartMarketPrice": {
+              "price": 1099.38,
+              "confidence": "medium",
+              "method": "7day_filtered_weighted",
+              "daysUsed": 7
+            }
+          },
+          "lastSale": {
+            "date": "2026-02-15",
+            "average": 1215.25,
+            "count": 3,
+            "totalValue": 3645.75
+          },
+          "priceHistoryDays": 4
+        },
+        "PSA9": {
+          "stats": {
+            "count": 13,
+            "averagePrice": 6167.523846153846,
+            "medianPrice": 2475,
+            "minPrice": 1725,
+            "maxPrice": 21020.04,
+            "marketPrice7Day": 2899.99,
+            "marketPriceMedian7Day": 2899.99,
+            "dailyVolume7Day": 0.14285714285714285,
+            "marketTrend": "down",
+            "lastMarketUpdate": "2026-02-18T21:16:17.028Z",
+            "smartMarketPrice": {
+              "price": 2624.99,
+              "confidence": "low",
+              "method": "30day_filtered_weighted",
+              "daysUsed": 30
+            }
+          },
+          "lastSale": {
+            "date": "2026-02-16",
+            "average": 2899.99,
+            "count": 1,
+            "totalValue": 2899.99
+          },
+          "priceHistoryDays": 2
+        }
+      }
+    },
+    {
+      "tcgPlayerId": "42393",
+      "name": "Clefairy",
+      "cardNumber": "005/102",
+      "setName": "Base Set",
+      "rarity": "Holo Rare",
+      "tcgPlayerUrl": "https://www.tcgplayer.com/product/42393",
+      "grades": {
+        "PSA6": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA7": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA8": {
+          "stats": {
+            "count": 4,
+            "averagePrice": 61.75,
+            "medianPrice": 62.5,
+            "minPrice": 57,
+            "maxPrice": 65,
+            "marketPrice7Day": 91.08,
+            "marketPriceMedian7Day": 90.91764705882352,
+            "dailyVolume7Day": 8.5,
+            "marketTrend": "rising",
+            "lastMarketUpdate": "2026-01-09T00:00:00.000Z",
+            "smartMarketPrice": {
+              "price": 91.08,
+              "confidence": "high",
+              "method": "7_day_rolling_average",
+              "daysUsed": 6
+            }
+          },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA9": {
+          "stats": {
+            "count": 1,
+            "averagePrice": 128.4,
+            "medianPrice": 128.4,
+            "minPrice": 128.4,
+            "maxPrice": 128.4,
+            "marketPrice7Day": 159.46,
+            "marketPriceMedian7Day": 159.46,
+            "dailyVolume7Day": 1,
+            "marketTrend": "rising",
+            "lastMarketUpdate": "2025-08-15T00:00:00.000Z",
+            "smartMarketPrice": {
+              "price": 159.46,
+              "confidence": "medium",
+              "method": "14_day_recent_sales",
+              "daysUsed": 3
+            }
+          },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        }
+      }
+    },
+    {
+      "tcgPlayerId": "42404",
+      "name": "Gyarados",
+      "cardNumber": "006/102",
+      "setName": "Base Set",
+      "rarity": "Holo Rare",
+      "tcgPlayerUrl": "https://www.tcgplayer.com/product/42404",
+      "grades": {
+        "PSA6": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA7": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA8": {
+          "stats": {
+            "count": 8,
+            "averagePrice": 73.125,
+            "medianPrice": 74.5,
+            "minPrice": 65,
+            "maxPrice": 85,
+            "marketPrice7Day": 126.18,
+            "marketPriceMedian7Day": 121.8975,
+            "dailyVolume7Day": 2.29,
+            "marketTrend": "falling",
+            "lastMarketUpdate": "2025-12-28T00:00:00.000Z",
+            "smartMarketPrice": {
+              "price": 126.18,
+              "confidence": "high",
+              "method": "7_day_rolling_average",
+              "daysUsed": 7
+            }
+          },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA9": {
+          "stats": {
+            "count": 9,
+            "averagePrice": 179.88111111111112,
+            "medianPrice": 189.99,
+            "minPrice": 149.99,
+            "maxPrice": 195.5,
+            "marketPrice7Day": 174.24,
+            "marketPriceMedian7Day": 170.49,
+            "dailyVolume7Day": 1.14,
+            "marketTrend": "rising",
+            "lastMarketUpdate": "2026-01-15T00:00:00.000Z",
+            "smartMarketPrice": {
+              "price": 174.24,
+              "confidence": "high",
+              "method": "7_day_rolling_average",
+              "daysUsed": 7
+            }
+          },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        }
+      }
+    },
+    {
+      "tcgPlayerId": "42415",
+      "name": "Hitmonchan",
+      "cardNumber": "007/102",
+      "setName": "Base Set",
+      "rarity": "Holo Rare",
+      "tcgPlayerUrl": "https://www.tcgplayer.com/product/42415",
+      "grades": {
+        "PSA6": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA7": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA8": {
+          "stats": {
+            "count": 7,
+            "averagePrice": 51.99142857142857,
+            "medianPrice": 50,
+            "minPrice": 43,
+            "maxPrice": 64.99,
+            "marketPrice7Day": 51.99,
+            "marketPriceMedian7Day": 50.16,
+            "dailyVolume7Day": 1,
+            "marketTrend": "stable",
+            "lastMarketUpdate": "2026-01-14T00:00:00.000Z",
+            "smartMarketPrice": {
+              "price": 51.99,
+              "confidence": "high",
+              "method": "7_day_rolling_average",
+              "daysUsed": 7
+            }
+          },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA9": {
+          "stats": {
+            "count": 1,
+            "averagePrice": 140,
+            "medianPrice": 140,
+            "minPrice": 140,
+            "maxPrice": 140,
+            "marketPrice7Day": 140,
+            "marketPriceMedian7Day": 140,
+            "dailyVolume7Day": 1,
+            "marketTrend": "insufficient_data",
+            "lastMarketUpdate": "2025-08-01T00:00:00.000Z",
+            "smartMarketPrice": {
+              "price": 133,
+              "confidence": "low",
+              "method": "last_1_sales",
+              "daysUsed": 91
+            }
+          },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        }
+      }
+    },
+    {
+      "tcgPlayerId": "42433",
+      "name": "Magneton",
+      "cardNumber": "009/102",
+      "setName": "Base Set",
+      "rarity": "Holo Rare",
+      "tcgPlayerUrl": "https://www.tcgplayer.com/product/42433",
+      "grades": {
+        "PSA6": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA7": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA8": {
+          "stats": {
+            "count": 7,
+            "averagePrice": 48.857142857142854,
+            "medianPrice": 50,
+            "minPrice": 25,
+            "maxPrice": 75,
+            "marketPrice7Day": 75,
+            "marketPriceMedian7Day": 75,
+            "dailyVolume7Day": 0.14285714285714285,
+            "marketTrend": "up",
+            "lastMarketUpdate": "2026-01-21T15:02:59.252Z",
+            "smartMarketPrice": {
+              "price": 57,
+              "confidence": "medium",
+              "method": "30day_median",
+              "daysUsed": 30
+            }
+          },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA9": {
+          "stats": {
+            "count": 4,
+            "averagePrice": 86.745,
+            "medianPrice": 92.495,
+            "minPrice": 59.99,
+            "maxPrice": 102,
+            "marketPrice7Day": null,
+            "marketPriceMedian7Day": null,
+            "dailyVolume7Day": null,
+            "marketTrend": "down",
+            "lastMarketUpdate": "2026-01-21T15:02:59.252Z",
+            "smartMarketPrice": {
+              "price": 92.495,
+              "confidence": "low",
+              "method": "all_available",
+              "daysUsed": 165
+            }
+          },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        }
+      }
+    },
+    {
+      "tcgPlayerId": "42347",
+      "name": "Mewtwo",
+      "cardNumber": "010/102",
+      "setName": "Base Set",
+      "rarity": "Holo Rare",
+      "tcgPlayerUrl": "https://www.tcgplayer.com/product/42347",
+      "grades": {
+        "PSA6": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA7": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA8": {
+          "stats": {
+            "count": 17,
+            "averagePrice": 498.9752941176471,
+            "medianPrice": 647.31,
+            "minPrice": 77,
+            "maxPrice": 865.68,
+            "marketPrice7Day": null,
+            "marketPriceMedian7Day": null,
+            "dailyVolume7Day": null,
+            "marketTrend": "up",
+            "lastMarketUpdate": "2026-01-21T15:02:44.301Z",
+            "smartMarketPrice": {
+              "price": 764.295,
+              "confidence": "medium",
+              "method": "30day_median",
+              "daysUsed": 30
+            }
+          },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA9": {
+          "stats": {
+            "count": 8,
+            "averagePrice": 216.85500000000002,
+            "medianPrice": 214.99,
+            "minPrice": 200,
+            "maxPrice": 250,
+            "marketPrice7Day": null,
+            "marketPriceMedian7Day": null,
+            "dailyVolume7Day": null,
+            "marketTrend": "stable",
+            "lastMarketUpdate": "2026-01-21T15:02:44.301Z",
+            "smartMarketPrice": {
+              "price": 214.99,
+              "confidence": "low",
+              "method": "all_available",
+              "daysUsed": 161
+            }
+          },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        }
+      }
+    },
+    {
+      "tcgPlayerId": "42351",
+      "name": "Nidoking",
+      "cardNumber": "011/102",
+      "setName": "Base Set",
+      "rarity": "Holo Rare",
+      "tcgPlayerUrl": "https://www.tcgplayer.com/product/42351",
+      "grades": {
+        "PSA6": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA7": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA8": {
+          "stats": {
+            "count": 12,
+            "averagePrice": 131.0425,
+            "medianPrice": 68.495,
+            "minPrice": 55,
+            "maxPrice": 850,
+            "marketPrice7Day": null,
+            "marketPriceMedian7Day": null,
+            "dailyVolume7Day": null,
+            "marketTrend": "down",
+            "lastMarketUpdate": "2026-01-21T15:02:46.885Z",
+            "smartMarketPrice": {
+              "price": 70.49,
+              "confidence": "medium",
+              "method": "30day_median",
+              "daysUsed": 30
+            }
+          },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA9": {
+          "stats": {
+            "count": 7,
+            "averagePrice": 115.12714285714286,
+            "medianPrice": 115,
+            "minPrice": 98.9,
+            "maxPrice": 135,
+            "marketPrice7Day": null,
+            "marketPriceMedian7Day": null,
+            "dailyVolume7Day": null,
+            "marketTrend": "stable",
+            "lastMarketUpdate": "2026-01-21T15:02:46.885Z",
+            "smartMarketPrice": {
+              "price": 115,
+              "confidence": "low",
+              "method": "all_available",
+              "daysUsed": 157
+            }
+          },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        }
+      }
+    },
+    {
+      "tcgPlayerId": "42352",
+      "name": "Ninetales",
+      "cardNumber": "012/102",
+      "setName": "Base Set",
+      "rarity": "Holo Rare",
+      "tcgPlayerUrl": "https://www.tcgplayer.com/product/42352",
+      "grades": {
+        "PSA6": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA7": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA8": {
+          "stats": {
+            "count": 8,
+            "averagePrice": 75.9475,
+            "medianPrice": 70.345,
+            "minPrice": 55,
+            "maxPrice": 127.5,
+            "marketPrice7Day": 77.28,
+            "marketPriceMedian7Day": 75.97,
+            "dailyVolume7Day": 1,
+            "marketTrend": "rising",
+            "lastMarketUpdate": "2026-01-09T00:00:00.000Z",
+            "smartMarketPrice": {
+              "price": 77.28,
+              "confidence": "high",
+              "method": "7_day_rolling_average",
+              "daysUsed": 7
+            }
+          },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA9": {
+          "stats": {
+            "count": 3,
+            "averagePrice": 128.66333333333333,
+            "medianPrice": 139.99,
+            "minPrice": 86,
+            "maxPrice": 160,
+            "marketPrice7Day": 124.14,
+            "marketPriceMedian7Day": 125.75,
+            "dailyVolume7Day": 1,
+            "marketTrend": "falling",
+            "lastMarketUpdate": "2025-12-06T00:00:00.000Z",
+            "smartMarketPrice": {
+              "price": 124.14,
+              "confidence": "high",
+              "method": "7_day_rolling_average",
+              "daysUsed": 7
+            }
+          },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        }
+      }
+    },
+    {
+      "tcgPlayerId": "42353",
+      "name": "Poliwrath",
+      "cardNumber": "013/102",
+      "setName": "Base Set",
+      "rarity": "Holo Rare",
+      "tcgPlayerUrl": "https://www.tcgplayer.com/product/42353",
+      "grades": {
+        "PSA6": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA7": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA8": {
+          "stats": {
+            "count": 5,
+            "averagePrice": 55.398,
+            "medianPrice": 59.99,
+            "minPrice": 31,
+            "maxPrice": 73,
+            "marketPrice7Day": 78.43,
+            "marketPriceMedian7Day": 78.80538461538461,
+            "dailyVolume7Day": 8,
+            "marketTrend": "falling",
+            "lastMarketUpdate": "2025-12-28T00:00:00.000Z",
+            "smartMarketPrice": {
+              "price": 78.43,
+              "confidence": "high",
+              "method": "7_day_rolling_average",
+              "daysUsed": 7
+            }
+          },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA9": {
+          "stats": {
+            "count": 3,
+            "averagePrice": 82.63000000000001,
+            "medianPrice": 83,
+            "minPrice": 69.9,
+            "maxPrice": 94.99,
+            "marketPrice7Day": 89.38,
+            "marketPriceMedian7Day": 87.96,
+            "dailyVolume7Day": 1,
+            "marketTrend": "falling",
+            "lastMarketUpdate": "2025-12-07T00:00:00.000Z",
+            "smartMarketPrice": {
+              "price": 89.38,
+              "confidence": "high",
+              "method": "7_day_rolling_average",
+              "daysUsed": 5
+            }
+          },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        }
+      }
+    },
+    {
+      "tcgPlayerId": "42354",
+      "name": "Raichu",
+      "cardNumber": "014/102",
+      "setName": "Base Set",
+      "rarity": "Holo Rare",
+      "tcgPlayerUrl": "https://www.tcgplayer.com/product/42354",
+      "grades": {
+        "PSA6": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA7": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA8": {
+          "stats": {
+            "count": 11,
+            "averagePrice": 73.99909090909091,
+            "medianPrice": 75,
+            "minPrice": 55,
+            "maxPrice": 94.99,
+            "marketPrice7Day": 65.26,
+            "marketPriceMedian7Day": 63.75757575757576,
+            "dailyVolume7Day": 5.57,
+            "marketTrend": "rising",
+            "lastMarketUpdate": "2026-01-08T00:00:00.000Z",
+            "smartMarketPrice": {
+              "price": 65.26,
+              "confidence": "high",
+              "method": "7_day_rolling_average",
+              "daysUsed": 7
+            }
+          },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA9": {
+          "stats": {
+            "count": 7,
+            "averagePrice": 233.92142857142858,
+            "medianPrice": 240,
+            "minPrice": 199,
+            "maxPrice": 268.45,
+            "marketPrice7Day": 233.92,
+            "marketPriceMedian7Day": 219.42,
+            "dailyVolume7Day": 1,
+            "marketTrend": "rising",
+            "lastMarketUpdate": "2026-01-09T00:00:00.000Z",
+            "smartMarketPrice": {
+              "price": 233.92,
+              "confidence": "high",
+              "method": "7_day_rolling_average",
+              "daysUsed": 7
+            }
+          },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        }
+      }
+    },
+    {
+      "tcgPlayerId": "42355",
+      "name": "Venusaur",
+      "cardNumber": "015/102",
+      "setName": "Base Set",
+      "rarity": "Holo Rare",
+      "tcgPlayerUrl": "https://www.tcgplayer.com/product/42355",
+      "grades": {
+        "PSA6": {
+          "stats": {
+            "count": 10,
+            "averagePrice": 97.318,
+            "medianPrice": 99.72999999999999,
+            "minPrice": 59,
+            "maxPrice": 118.5,
+            "marketPrice7Day": 110,
+            "marketPriceMedian7Day": 110,
+            "dailyVolume7Day": 0.14285714285714285,
+            "marketTrend": "up",
+            "lastMarketUpdate": "2026-02-18T21:36:48.776Z",
+            "smartMarketPrice": {
+              "price": 104.5,
+              "confidence": "medium",
+              "method": "30day_filtered_weighted",
+              "daysUsed": 30
+            }
+          },
+          "lastSale": {
+            "date": "2026-02-15",
+            "average": 110,
+            "count": 1,
+            "totalValue": 110
+          },
+          "priceHistoryDays": 3
+        },
+        "PSA7": {
+          "stats": {
+            "count": 9,
+            "averagePrice": 212.98666666666668,
+            "medianPrice": 144.99,
+            "minPrice": 129,
+            "maxPrice": 400,
+            "marketPrice7Day": null,
+            "marketPriceMedian7Day": null,
+            "dailyVolume7Day": null,
+            "marketTrend": "up",
+            "lastMarketUpdate": "2026-02-18T21:36:48.776Z",
+            "smartMarketPrice": {
+              "price": 123.21,
+              "confidence": "low",
+              "method": "30day_filtered_weighted",
+              "daysUsed": 30
+            }
+          },
+          "lastSale": {
+            "date": "2026-02-02",
+            "average": 144.95,
+            "count": 1,
+            "totalValue": 144.95
+          },
+          "priceHistoryDays": 2
+        },
+        "PSA8": {
+          "stats": {
+            "count": 32,
+            "averagePrice": 226.535625,
+            "medianPrice": 232.995,
+            "minPrice": 142.99,
+            "maxPrice": 300,
+            "marketPrice7Day": 234.25,
+            "marketPriceMedian7Day": 234.25,
+            "dailyVolume7Day": 0.2857142857142857,
+            "marketTrend": "up",
+            "lastMarketUpdate": "2026-02-18T21:36:48.776Z",
+            "smartMarketPrice": {
+              "price": 214.75,
+              "confidence": "high",
+              "method": "14day_filtered_weighted",
+              "daysUsed": 14
+            }
+          },
+          "lastSale": {
+            "date": "2026-02-14",
+            "average": 234.25,
+            "count": 2,
+            "totalValue": 468.5
+          },
+          "priceHistoryDays": 8
+        },
+        "PSA9": {
+          "stats": {
+            "count": 9,
+            "averagePrice": 435.29555555555555,
+            "medianPrice": 445,
+            "minPrice": 247.27,
+            "maxPrice": 532.41,
+            "marketPrice7Day": 445,
+            "marketPriceMedian7Day": 445,
+            "dailyVolume7Day": 0.14285714285714285,
+            "marketTrend": "up",
+            "lastMarketUpdate": "2026-02-18T21:36:48.776Z",
+            "smartMarketPrice": {
+              "price": 445,
+              "confidence": "low",
+              "method": "30day_filtered_weighted",
+              "daysUsed": 30
+            }
+          },
+          "lastSale": {
+            "date": "2026-02-13",
+            "average": 445,
+            "count": 1,
+            "totalValue": 445
+          },
+          "priceHistoryDays": 2
+        }
+      }
+    },
+    {
+      "tcgPlayerId": "42356",
+      "name": "Zapdos",
+      "cardNumber": "016/102",
+      "setName": "Base Set",
+      "rarity": "Holo Rare",
+      "tcgPlayerUrl": "https://www.tcgplayer.com/product/42356",
+      "grades": {
+        "PSA6": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA7": {
+          "stats": null,
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA8": {
+          "stats": {
+            "count": 9,
+            "averagePrice": 153.67444444444448,
+            "medianPrice": 72,
+            "minPrice": 56,
+            "maxPrice": 799.99,
+            "marketPrice7Day": 73.78,
+            "marketPriceMedian7Day": 167.95,
+            "dailyVolume7Day": 1,
+            "marketTrend": "falling",
+            "lastMarketUpdate": "2025-12-28T00:00:00.000Z",
+            "smartMarketPrice": {
+              "price": 73.78,
+              "confidence": "high",
+              "method": "7_day_rolling_average",
+              "daysUsed": 7
+            }
+          },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        },
+        "PSA9": {
+          "stats": {
+            "count": 8,
+            "averagePrice": 134.9225,
+            "medianPrice": 140.995,
+            "minPrice": 80.89,
+            "maxPrice": 200,
+            "marketPrice7Day": 136.69,
+            "marketPriceMedian7Day": 130.11225000000002,
+            "dailyVolume7Day": 8.86,
+            "marketTrend": "stable",
+            "lastMarketUpdate": "2026-01-12T00:00:00.000Z",
+            "smartMarketPrice": {
+              "price": 136.69,
+              "confidence": "high",
+              "method": "7_day_rolling_average",
+              "daysUsed": 7
+            }
+          },
+          "lastSale": null,
+          "priceHistoryDays": 0
+        }
+      }
+    }
+  ]
+}
